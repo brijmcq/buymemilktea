@@ -1,0 +1,23 @@
+.card-header {
+  flex-direction: column;
+  align-items: center;
+  box-shadow: none;
+  padding-bottom: 1em;
+}
+
+.button {
+  font-size: 13px;
+}
+
+@media (max-width: 600px) {
+  .column {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 600px) {
+  .button {
+    font-size: initial;
+  }
+}
